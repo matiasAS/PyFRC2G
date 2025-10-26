@@ -98,7 +98,7 @@ Notes :
 * Pour les hôtes de destination se situant en dehors de mon infrastructure interne, j'ai renseigné dans pfSense *EXT_* devant chaque nom d'alias de ces hôtes.
 
 ## 📝 Todo
-* Améliorer le code (je ne suis pas dev et ça se voit sur le côté "foutraque").
+* Améliorer le code (je ne suis pas dev et ça se voit sur le côté bordélique).
 * Automatiser le script avec génération des graphiques uniquement pour les règles ayant changées.
 * Notification des admins quand génération des graphiques.
 * Insérer le VLAN de destination devant un hôte de destination.
