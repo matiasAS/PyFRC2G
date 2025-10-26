@@ -96,3 +96,10 @@ Lancez le script **pyfrc2g.py**. Le script génèrera alors un fichier CSV qui s
 Notes :
 * Lors de la récupération des hôtes de destination, l'API de pfSense ne permet pas de connaitre le réseau dans lequel se situe celui-ci. J'ai donc commenté mes hôtes de destination sur pfSense en renseignant dans quel VLAN était celui-ci.
 * Pour les hôtes de destination se situant en dehors de mon infrastructure interne, j'ai renseigné dans pfSense *EXT_* devant chaque nom d'alias de ces hôtes.
+
+## 📝 Todo
+* Améliorer le code (je ne suis pas dev et ça se voit sur le côté "foutraque").
+* Automatiser le script avec génération des graphiques uniquement pour les règles ayant changées.
+* Notification des admins quand génération des graphiques.
+* Faire la même chose avec OPNSense.
+* Envoyez les preuves dans [CISO Assistant](https://intuitem.com/fr/ciso-assistant/).
