@@ -2,6 +2,8 @@
 
 Script python de conversion de règles firewall **PfSense** en graphique.
 
+
+
 ## 👋 Présentation
 
 Le script a été codé pour répondre à deux objectifs :
@@ -44,7 +46,7 @@ PFS_URL = "https://pfs01.domaine.lan/api/v2/firewall/rules"
 PFS_TOKEN = "VOTRE_CLE_GENEREE_AVEC_PFSENSE_REST_API"
 ```
 
-Configurez ensuite vos interfaces, les réseaux, les adresses des interfaces et les ports dans le fichier **config.py**. C'est certainement récupérable depuis pfSense mais je suis allé au plus facile à mettre en place.
+Configurez ensuite vos interfaces, les réseaux, les adresses des interfaces et les ports dans le fichier **config.py**. C'est certainement récupérable depuis pfSense mais je suis allé au plus facile à mettre en place 😇.
 
 Exemple :
 ```python
