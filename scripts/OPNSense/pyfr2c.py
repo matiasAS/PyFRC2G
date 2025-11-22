@@ -188,6 +188,8 @@ def parse_csv_and_generate(csv_path, output_dir):
         c = canvas.Canvas(pdf_path, pagesize=A4)
         width, height = A4
 
+        c.setTitle(f"Matrice des flux de la passerelle {PASSERELLE} ")
+
         for i, png in enumerate(png_files):
             # --- Titre / chapitre = nom du fichier ---
             titre_page = os.path.basename(png).replace(".gv.png", "")
