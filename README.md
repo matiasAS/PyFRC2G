@@ -5,6 +5,8 @@ Scripts python de conversion de règles firewall **PfSense** et **OPNSense** en 
 ![pfsense](./img/convert-rules-to-graph.png)
 ![opnsense](./img/opnsense.png)
 
+[English version](https://github.com/olivierb46/PyFRC2G/blob/main/README-ENG.md)
+
 ## 👋 Présentation
 
 Le script a été codé pour répondre à deux objectifs :
