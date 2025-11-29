@@ -9,9 +9,8 @@ Python scripts to convert PfSense and OPNSense firewall rules into a graphical v
 
 This script was written to meet two objectives:
 
-Provide a global graphical view of firewall rules (a picture is worth a thousand words).
-
-Provide evidence to meet IT security requirements defined in various compliance frameworks.
+* Provide a global graphical view of firewall rules (a picture is worth a thousand words).
+* Provide evidence to meet IT security requirements defined in various compliance frameworks.
 
 ## ⚡ Features
 
