@@ -159,9 +159,10 @@ def main():
         # Upload to CISO Assistant if configured
         if ciso_client.enabled:
             logging.info("Uploading PDFs to CISO Assistant...")
-            stats = ciso_client.upload_all_pdfs(config.graph_output_dir)
+            global_pdf = f"{config.graph_output_dir}/{host_name}_FLOW_MATRIX.pdf"
+            stats = ciso_client.upload_global_pdf(global_pdf)
             if stats["successful"] > 0:
-                logging.info(f"✓ Successfully uploaded {stats['successful']} PDF(s) to CISO Assistant")
+                logging.info(f"✓ Successfully uploaded {stats['successful']} PDF to CISO Assistant")
             if stats["failed"] > 0:
                 logging.warning(f"⚠ Failed to upload {stats['failed']} PDF(s) to CISO Assistant")
     else:
